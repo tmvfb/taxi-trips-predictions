@@ -12,7 +12,7 @@ from tqdm import tqdm
 class TSDataManager:
     """
     A class to manage pandas time series data.
-    Pass only index and features you want to create lag/rolling mean for.
+    Pass only index and features you want to create lag / rolling mean for.
 
     Methods
     -------
@@ -174,7 +174,7 @@ class TSDataManager:
         fig = plt.figure(figsize=(10, 10))
         ax = fig.add_subplot(projection="3d")
 
-        ax.set_title("RMSE train vs lag/rolling mean")
+        ax.set_title("RMSE train vs lag / rolling mean")
         ax.set_xlabel("number of lag columns", fontweight="bold")
         ax.set_ylabel("rolling mean size", fontweight="bold")
         ax.set_zlabel("RMSE", fontweight="bold", labelpad=30)
