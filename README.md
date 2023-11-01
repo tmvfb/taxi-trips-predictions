@@ -2,7 +2,7 @@
 [![image](https://raw.githubusercontent.com/jupyter/design/0ed7f5798358c203d8bc6c1ce0f46d9c8294fd4e/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/tmvfb/taxi-trips-predictions/blob/main/notebook.ipynb)
 
 ## Description
-The task is to create a machine learning model that predicts the count of taxi trips for the next hour in [Chicago's community areas](https://en.wikipedia.org/wiki/Community_areas_in_Chicago). This is a time series task.
+The task is to create a machine learning model that predicts the count of taxi trips for the next hour in [Chicago's community areas](https://en.wikipedia.org/wiki/Community_areas_in_Chicago). The utilization of this model could help to optimize taxi driver workload distribution across different locations. This is a time series task.
 
 Datasets with their respective descriptions can be found by the following links:
 https://data.cityofchicago.org/Transportation/Taxi-Trips-2022/npd7-ywjz  
